@@ -124,9 +124,7 @@ Framework-specific instructions are included in their respective directories.
 
 If you use this repository in academic work, please cite:
 
-**Comparative Study of React, Astro and Eleventy Technologies in Developing a Lottery Statistical Analysis Application**
-
-(Include authors, publication venue, and year.)
+**{SOON}**
 
 ---
 
