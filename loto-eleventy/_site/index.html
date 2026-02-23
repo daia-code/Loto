@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loto 6/49</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="phone-container">
+      <header style="background: var(--primary-color); padding: 1rem; text-align: center;">
+        <h1 style="color: #fff;">Loto 6/49</h1>
+      </header>
+
+      <div class="content" style="padding: 1rem;">
+        <!-- Card pentru extragere -->
+        <div class="card">
+          <h2>Extrage Numere</h2>
+          <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem;">
+            <button id="draw-btn" class="button">🎰 Extrage Numere</button>
+            <button id="joker-btn" class="button">🤡 Varianta Joker</button>
+          </div>
+          <div id="draw-result" style="text-align: center; font-size: 1.25rem; color: #e53e3e; font-weight: bold;"></div>
+        </div>
+
+        <!-- Istoric extrageri -->
+        <div class="card">
+          <h2>Istoric Extrageri</h2>
+          <div id="history-list"></div>
+        </div>
+
+        <!-- Grafic pentru statistici -->
+        <div class="card">
+          <h2>Statistici</h2>
+          <canvas id="statsChart"></canvas>
+          <div id="stats"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/loto.js"></script>
+</body>
+</html>
