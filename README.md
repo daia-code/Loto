@@ -124,7 +124,14 @@ Framework-specific instructions are included in their respective directories.
 
 If you use this repository in academic work, please cite:
 
-**{SOON}**
+**Lucaciu, D.-L.
+(2026) Comparative Study of React, Astro
+and Eleventy Technologies in Developing a
+Lottery Statistical Analysis Application.
+Open Journal of Applied Sciences, 16, 758-
+769.
+https://doi.org/10.4236/ojapps.2026.163046
+**
 
 ---
 
